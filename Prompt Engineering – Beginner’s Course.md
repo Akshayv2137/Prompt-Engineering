@@ -55,8 +55,10 @@ AI: (Happy to help!) “Dear Teacher, thank you for helping me prepare for my ex
 
 ❌ **Bad Prompt:**  
 “Explain stuff about AI.”  
-✅ **Good Prompt:**  
-“Explain what artificial intelligence is in simple words, like for a 6-year-old.”  
+✅ **Good Prompt:** 
+```sh
+“Explain what artificial intelligence is in simple words, like for a 6-year-old.”
+``` 
 See the difference? 😊
 
 ✅ **Why Prompt Engineering Matters When Using AI Models**  
@@ -94,7 +96,10 @@ Let’s Learn the 5 Ways to Give Prompts (like learning ABCs)!
 You ask the model to perform a task **without giving any example**.
 
 No examples – just ask.  
-**Prompt:** "Tell me a bedtime story."  
+**Prompt:** 
+```sh
+"Tell me a bedtime story."
+```
 Simple and quick!
 
 🟢 **When to use it:**
@@ -102,8 +107,11 @@ Simple and quick!
 - When the model is likely to understand the intent clearly
 
 🔤 **Example:**  
-> **Prompt:** "Summarize this paragraph in one sentence."  
-> **Paragraph:** "Prompt engineering is the art of crafting inputs to get the best results from AI models."  
+> **Prompt:**
+```sh
+"Summarize this paragraph in one sentence."
+ **Paragraph:** "Prompt engineering is the art of crafting inputs to get the best results from AI models."
+```
 > **Output:** "Prompt engineering means writing smart inputs to guide AI effectively."
 
 🟠 **2. One-Shot Prompting**  
@@ -116,8 +124,10 @@ You give the model **one example** of how to do the task, then ask it to do a si
 
 🔤 **Example:**  
 **Prompt:** "Correct grammar in these sentences:  
-1. Example: She go to school. → She goes to school.  
-2. He eat apple."  
+1. Example: She go to school. → She goes to school.
+ ```sh
+2. He eat apple."
+```  
 **Output:**  
 "He eats an apple."
 
@@ -146,7 +156,10 @@ You ask the model to **explain its thinking step-by-step** before answering.
 - Multi-step problems
 
 🔤 **Example:**  
-**Prompt:** "If a pen costs ₹15 and a notebook costs ₹45, how much do 3 pens and 2 notebooks cost? Show your calculation."  
+**Prompt:** 
+```sh
+"If a pen costs ₹15 and a notebook costs ₹45, how much do 3 pens and 2 notebooks cost? Show your calculation."
+```
 **Output:**  
 > "Cost of 3 pens = 3 × ₹15 = ₹45  
 > Cost of 2 notebooks = 2 × ₹45 = ₹90  
@@ -160,7 +173,10 @@ You ask the AI to take on a specific role, like a teacher, doctor, analyst, etc.
 - When you want a certain tone, expertise, or point of view
 
 🔤 **Example:**  
-**Prompt:** "Act as a QA Analyst. Write test cases to verify if the 'Login' button is enabled only after both username and password are entered."  
+**Prompt:**
+```sh
+"Act as a QA Analyst. Write test cases to verify if the 'Login' button is enabled only after both username and password are entered."
+``` 
 **Output:**  
 Test Case ID: TC001  
 Description: Verify login button is enabled  
@@ -194,8 +210,10 @@ Your prompt should clearly state *what* you want and *how* you want it. Avoid va
 🛑 **Bad Prompt (Too vague):**  
 "Write something about testing."  
 ✅ **Good Prompt (Clear & Specific):**  
-> "Write a short paragraph explaining the importance of regression testing in software development, using simple language."
-
+>
+```sh
+"Write a short paragraph explaining the importance of regression testing in software development, using simple language."
+```
 Why it works:  
 It tells the model:
 - The topic: regression testing  
@@ -210,8 +228,9 @@ Tell the AI how the content should *look* and *feel* — e.g., formal, casual, b
 🛑 **Bad Prompt (No format or tone):**  
  "Explain what QA does."  
 ✅ **Good Prompt (With format and tone):**  
+```sh
 "Explain the role of QA in software development in bullet points, using a professional tone suitable for a presentation to developers."
-
+```
 Why it works:
 - Bullet points = easier to read  
 - Professional tone = suitable for work context  
@@ -226,8 +245,9 @@ Add background info so the AI understands the situation or goal. It helps produc
  "Give me test cases."
 
 ✅ **Good Prompt (With context):**  
+```sh
 "I’m a QA Analyst testing a web app. Generate 5 test cases to verify if the 'Forgot Password' feature works correctly, including both positive and negative scenarios."
-
+```
 Why it works:
 - Tells AI who you are (QA Analyst)  
 - Gives the feature to test (Forgot Password)  
@@ -259,9 +279,13 @@ Break big tasks into smaller steps:
 
 **Prompt Chaining Example:**  
 1. First prompt:  
-   > "List the modules in the QA dashboard UI."  
+ ```sh
+  "List the modules in the QA dashboard UI."
+```
 2. Take the result and use it in a second prompt:  
-   > "For each module, create 3 functional test cases."
+   ```sh
+   "For each module, create 3 functional test cases."
+   ```
 
 So, instead of asking for all test cases at once, you *chain* the process for better structure.
 
@@ -276,8 +300,14 @@ Some platforms (like OpenAI's API or ChatGPT's system messages) allow you to def
 Helps set a consistent *tone, behavior,* or *format* across all outputs.
 
 🧪 **Example:**  
-System Message: "You are a professional QA Analyst. Always reply with bullet-pointed lists and a formal tone."  
-User Prompt: "Write test cases for login functionality."  
+System Message: 
+```sh 
+"You are a professional QA Analyst. Always reply with bullet-pointed lists and a formal tone."  
+```
+User Prompt: 
+```sh 
+"Write test cases for login functionality."
+ ```
 
 ---
 
@@ -291,13 +321,14 @@ Useful when you want consistent behavior over a long session or document.
 
 🧪 **Example:**  
 **Prompt:**  
+```sh
 "You are assisting in QA documentation. Always use this format:  
 - Test Case ID  
 - Title  
 - Steps  
 - Expected Result  
 Always write in a concise and formal tone. Now, create 2 test cases for user registration."
-
+```
 Even if you continue asking for more test cases later, the model is more likely to remember this format.
 
 ---
@@ -313,13 +344,19 @@ You can gradually build complex responses, refine outputs, or keep context over 
 🧪 **Example:**
 
 **Turn 1:**  
-> "Write a test plan for the new payment gateway."  
+```sh 
+"Write a test plan for the new payment gateway."
+```
 
 **Turn 2:**  
-> "Now add risks and assumptions."
+```sh
+"Now add risks and assumptions." 
+```
 
 **Turn 3:**  
-> "Make it suitable for stakeholder review."
+```sh 
+"Make it suitable for stakeholder review."
+```
 
 The model continues to evolve the output based on your follow-ups. This is powerful when you're working on documents or refining something step-by-step.
 
@@ -344,14 +381,19 @@ Using prompts to automatically generate professional or creative content such as
 Be clear about the **format**, **audience**, and **tone** (professional, casual, technical, etc.)
 
 **Example Prompt (Email):**  
-> “Write a polite follow-up email to a client who hasn't responded in 5 days. Mention our previous conversation about the software demo.”
+```sh 
+“Write a polite follow-up email to a client who hasn't responded in 5 days. Mention our previous conversation about the software demo.”
+```
 
 **Example Prompt (Blog):**  
-> “Write a 300-word blog post on the benefits of remote work. Use a friendly and engaging tone.”
+```sh
+“Write a 300-word blog post on the benefits of remote work. Use a friendly and engaging tone.”
+```
 
 **Example Prompt (Report):**  
-> “Generate a summary report on website traffic analytics for March 2025 using a professional tone.”
-
+```sh
+“Generate a summary report on website traffic analytics for March 2025 using a professional tone.” 
+```
 ---
 
 💻 **2. Coding and Debugging Help**
@@ -363,10 +405,14 @@ You can ask the model to write code, fix bugs, or explain coding concepts.
 Specify the **language**, **task**, and **error message** if any.
 
 **Example Prompt (Coding):**  
-> “Write a Python script to read a CSV file and count how many times each word appears in the ‘comments’ column.”
+```sh 
+“Write a Python script to read a CSV file and count how many times each word appears in the ‘comments’ column.”
+```
 
 **Example Prompt (Debugging):**  
-> “I’m getting a TypeError in this Python code. Help me fix it:  
+```sh
+“I’m getting a TypeError in this Python code. Help me fix it:
+```
 ---
 
 📊 **3. Data Analysis and Summarization**
@@ -375,12 +421,15 @@ Specify the **language**, **task**, and **error message** if any.
 Use prompts to analyze text or summarize long data like reports, customer feedback, or documents.
 
 **How to prompt:**  
-Give the data (or a sample of it) and ask for a **summary**, **insight**, or **trend**.
+```sh
+Give the data (or a sample of it) and ask for a **summary**, **insight**, or **trend**. 
+```
 
-**Example Prompt (Summary):**  
-> “Summarize this customer feedback into 3 main concerns:  
-*'The app crashes often. It takes too long to load. I wish it had more payment options.'*”
-
+**Example Prompt (Summary):** 
+```sh
+ “Summarize this customer feedback into 3 main concerns:  
+'The app crashes often. It takes too long to load. I wish it had more payment options.'”
+```
 **Response:**  
 > “Main Concerns:  
 1. Frequent crashes  
@@ -398,13 +447,19 @@ Prompt the model to translate text between languages or rewrite it in a differen
 Mention the **source language**, **target language**, or the **tone** you want.
 
 **Example Prompt (Translation):**  
-> “Translate this sentence from English to Hindi: 'Please submit the report by Friday.'”
+```sh 
+“Translate this sentence from English to Hindi: 'Please submit the report by Friday.'”
+```
 
 **Example Prompt (Rewriting):**  
-> “Rewrite the following in a more formal tone: ‘Hey, just checking in about the meeting tomorrow.’”
+```sh
+“Rewrite the following in a more formal tone: ‘Hey, just checking in about the meeting tomorrow.’”
+```
 
 **Response:**  
-> “I wanted to follow up regarding our meeting scheduled for tomorrow.”
+```sh
+“I wanted to follow up regarding our meeting scheduled for tomorrow.”
+```
 
 ---
 
