@@ -87,7 +87,7 @@ Language models are AI systems that understand and generate human language. They
 
 ---
 
-## 🟦Prompting Techniques
+## 🟦 Prompting Techniques
 
 Let’s Learn the 5 Ways to Give Prompts (like learning ABCs)!
 
