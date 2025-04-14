@@ -27,7 +27,7 @@ This course will teach you how to talk to AI like ChatGPT in the best way possib
 
 ### 📑 **Jump to Pages:**
 - [Page 2: What is Prompt Engineering?](#page-2-what-is-prompt-engineering)
-- [Page 3: Prompting Techniques](#🟦-page-3-prompting-techniques)
+- [Page 3: Prompting Techniques](#page-3-prompting-techniques)
 - [Page 4: Crafting Good Prompts (Like Writing Smart Wishes!)](#page-4-crafting-good-prompts-like-writing-smart-wishes)
 - [Page 5: Advanced Prompt Strategies (Magic Tricks!)](#page-5-advanced-prompt-strategies-magic-tricks)
 - [Page 6: Use Cases (Fun Ways to Use Prompts!)](#page-6-use-cases-fun-ways-to-use-prompts)
