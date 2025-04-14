@@ -26,7 +26,7 @@ This course will teach you how to talk to AI like ChatGPT in the best way possib
 ---
 
 ### 📑 **Jump to Pages:**
-- [What is Prompt Engineering?](#what-is-prompt-engineering)
+- [What is Prompt Engineering?](#-what-is-prompt-engineering)
 - [Prompting Techniques](#prompting-techniques)
 - [Crafting Good Prompts (Like Writing Smart Wishes!)](#crafting-good-prompts-like-writing-smart-wishes)
 - [Advanced Prompt Strategies (Magic Tricks!)](#advanced-prompt-strategies-magic-tricks)
@@ -87,7 +87,7 @@ Language models are AI systems that understand and generate human language. They
 
 ---
 
-## 🟦 Page 3: Prompting Techniques
+## 🟦Prompting Techniques
 
 Let’s Learn the 5 Ways to Give Prompts (like learning ABCs)!
 
@@ -198,7 +198,7 @@ Steps:
 
 ---
 
-## 🟦 Page 4: Crafting Good Prompts (Like Writing Smart Wishes!)
+## 🟦 Crafting Good Prompts (Like Writing Smart Wishes!)
 
 🎯 **Good Prompts = Clear, Kind, and Clever.**
 
@@ -264,7 +264,7 @@ Why it works:
 
 ---
 
-## 🟦 Page 5: Advanced Prompt Strategies (Magic Tricks!)
+## 🟦 Advanced Prompt Strategies (Magic Tricks!)
 
 ✅ **1. Prompt Tuning and Prompt Chaining**  
 Break big tasks into smaller steps:  
@@ -370,7 +370,7 @@ When using **advanced strategies**, always:
 
 ---
 
-## 🟦 Page 6: Use Cases (Fun Ways to Use Prompts!)
+## 🟦 Use Cases (Fun Ways to Use Prompts!)
 
 ✍️ **1. Content Generation (Emails, Blogs, Reports)**
 
