@@ -1,9 +1,9 @@
-🌟 Prompt Engineering – Beginner’s Course Script (Nursery-Friendly + Complete)
-🟦 Page 1: Course Overview
+#🌟 Prompt Engineering – Beginner’s Course Script (Nursery-Friendly + Complete)
+## 🟦 Page 1: Course Overview
 👋 Welcome!
 This course will teach you how to talk to AI like ChatGPT in the best way possible! Think of it like giving magic instructions so the AI gives you exactly what you want.
 
-🎯 What You’ll Learn:
+# 🎯 What You’ll Learn:
 	• What prompt engineering is (in simple words!)
 	• How ChatGPT and friends understand what we say
 	• Fun and useful ways to write prompts (like zero-shot and few-shot)
@@ -18,7 +18,7 @@ This course will teach you how to talk to AI like ChatGPT in the best way possib
 
 
 **********************************************************************************************
-🟦 Page 2: 1. What is Prompt Engineering?
+🟦 Page 2: What is Prompt Engineering?
 🧸 Imagine This:
 You have a robot buddy who can write, draw, code, and explain anything — but only if you ask clearly. That’s prompt engineering! 🌟
 
@@ -67,7 +67,7 @@ Language models are AI systems that understand and generate human language. They
 - Write or debug code
 
 *********************************************************************************
-🟦 Page 3: 3. Prompting Techniques
+🟦 Page 3: Prompting Techniques
 Let’s Learn the 5 Ways to Give Prompts (like learning ABCs)!
 
 🟡 1. Zero-Shot Prompting
@@ -78,7 +78,7 @@ No examples – just ask.
 	“Tell me a bedtime story.”
 	Simple and quick!
 
-🟢 When to use it:**  
+🟢 When to use it:
 - Simple or general tasks  
 - When the model is likely to understand the intent clearly
 
